@@ -1,0 +1,52 @@
+.pie-pagina{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.FR, .UK {
+    color: black;
+    margin: 10px;
+}
+
+#FrT, #UkT {
+    color: black;
+
+}
+
+
+
+.logo {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.ping {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}

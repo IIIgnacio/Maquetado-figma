@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, ul.nav {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit
+}
+
+
+.headText {
+color: rgb(133, 81, 139);
+}
+
+.textQue {
+    margin-top: 20px;
+    color: rgb(133, 81, 139);
+}
+
+.about-area{
+    display: flex;
+    align-items: start;
+}
+
+.oficceImg img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.about-a {
+    width: 50%;
+}
+
+.form {
+    width: 50%;
+}

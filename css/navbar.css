@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    z-index: 10;
+    color: rgb(94, 152, 206);
+    background-color: #f8f8f8;
+    overflow: hidden;
+
+}
+
+.buttonContainer {
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+
+header h2 img {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.log .reg {    
+    display: flex;
+    align-items: end;
+
+  }
+
+header h2 span {
+    color: #bf0a30;
+}
+
+header h2 img {
+
+    margin-right: 50px;
+}
+
+header ul.nav {
+    display: flex;
+}
+
+header ul.nav li{
+    margin: 0 15px;
+}
+
+header ul.nav li:first-child {
+	margin-left: 0;
+}
+header ul.nav li:last-child {
+	margin-right: 0;
+}
